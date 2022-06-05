@@ -1,7 +1,9 @@
+import { Header } from "./components/Header.js";
+
 (() => {
   document.addEventListener("DOMContentLoaded", app);
 })();
 
 function app() {
-  console.log("desde index.ts");
+  new Header("slot.header");
 }
