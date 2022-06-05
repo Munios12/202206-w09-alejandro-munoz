@@ -11,7 +11,7 @@ export class Header extends Component {
     createTemplate() {
         return `
           <header class='header-app'>
-            <h1 class='header-app__title'>PokeAPI - Alejandro Muñoz</h1>
+            <img class='header-app__title' src='./pokemon-logo.svg'/>
             <ul class='header-app__list'>
               <li><a href='#'>Home</a></li>
               <li><a href='/favs'>Pokémons Favoritos</a></li>

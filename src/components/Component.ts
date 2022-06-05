@@ -7,6 +7,7 @@ export abstract class Component {
       );
     }
   }
+
   outRender(selector: string) {
     if (selector && document.querySelector(selector)) {
       (<HTMLElement>document.querySelector(selector)).outerHTML = <string>(
@@ -14,6 +15,7 @@ export abstract class Component {
       );
     }
   }
+
   addRender(selector: string) {
     if (selector && document.querySelector(selector)) {
       (<HTMLElement>document.querySelector(selector)).innerHTML += <string>(
