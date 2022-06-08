@@ -1,0 +1,33 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "number": "001",
+      "type": ["Planta", "Veneno"]
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "number": "002",
+      "type": ["Planta", "Veneno"]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

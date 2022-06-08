@@ -1,15 +1,20 @@
-import { Card } from "./Card.js";
 import { Component } from "./Component.js";
+import { PokeList } from "./PokeList.js";
 export class Main extends Component {
     selector;
-    template;
+    template = "";
     constructor(selector) {
         super();
         this.selector = selector;
         this.template = this.createTemplate();
-        this.outRender(this.selector);
-        new Card(".main-app__list");
-        new Card(".main-app__list");
+        this.render();
+        this.createPokemonListInMain();
+    }
+    render() {
+        super.outRender(this.selector);
+    }
+    createPokemonListInMain() {
+        new PokeList("ul.main-app__list");
     }
     createTemplate() {
         return `

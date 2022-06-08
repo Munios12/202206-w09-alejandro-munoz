@@ -46,6 +46,17 @@
 
 .main-app ul {
   list-style: none;
-  background-color: #f4f3f3fd;
   width: fit-content;
+}
+
+/*---------TARJETAS-----------*/
+
+.card-item {
+  margin: 5px;
+  padding: 10px;
+  background-color: #f4f3f3fd;
+}
+
+.card-item a {
+  text-decoration: none;
 }

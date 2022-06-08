@@ -8,7 +8,8 @@
     "start": "tsc -w",
     "test": "jest --watchAll --coverage",
     "prepare": "husky install",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "server": "json-server --watch --port 3542 ./server/db.json"
   },
   "author": "Alejandro Muñoz",
   "license": "ISC",
@@ -30,5 +31,8 @@
         ]
       }
     }
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
   }
 }
